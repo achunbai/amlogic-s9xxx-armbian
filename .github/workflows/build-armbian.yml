@@ -44,6 +44,7 @@ on:
           - fine3399
           - firefly-rk3399
           - jp-tvbox
+          - jp-tvbox-2
           - h28k
           - h66k
           - h68k
