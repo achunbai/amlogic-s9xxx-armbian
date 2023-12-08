@@ -24,7 +24,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "jp-tvbox"
         type: choice
         options:
           - all
@@ -177,7 +177,7 @@ on:
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
-        default: "stable"
+        default: "flippy"
         type: choice
         options:
           - stable
@@ -203,7 +203,7 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "ophub"
+        default: "yourname"
         type: choice
         options:
           - ophub
